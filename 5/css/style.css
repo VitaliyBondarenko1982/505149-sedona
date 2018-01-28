@@ -352,7 +352,7 @@ input[type="radio"].visually-hidden {
   .site-list__item a {
     display: block;
     vertical-align: middle;
-    font-family: "PT Sans", Tahoma, sans-serif;
+    font-family: "PT Sans", tahoma, sans-serif;
     font-size: 18px;
     line-height: 40px;
     font-weight: bold;
@@ -397,7 +397,7 @@ input[type="radio"].visually-hidden {
     display: flex; } }
 
 .banner {
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
@@ -489,7 +489,7 @@ input[type="radio"].visually-hidden {
   padding-bottom: 9px; }
 
 .features {
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   text-transform: uppercase; }
 
 @media (min-width: 768px) {
@@ -706,7 +706,7 @@ input[type="radio"].visually-hidden {
 
 .feature-with-photo {
   position: relative;
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -849,7 +849,7 @@ input[type="radio"].visually-hidden {
     background-color: #e5e5e5; }
 
 .offer {
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   text-transform: uppercase;
   text-align: center; }
 
@@ -942,7 +942,7 @@ input[type="radio"].visually-hidden {
 .page-footer {
   text-transform: uppercase;
   color: #000000;
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   text-align: center; }
 
 @media (min-width: 768px) {
@@ -1062,7 +1062,7 @@ input[type="radio"].visually-hidden {
 
 .article {
   position: relative;
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   width: 280px;
   min-height: 415px;
   margin: 0 auto; }
@@ -1242,7 +1242,7 @@ input[type="radio"].visually-hidden {
 
 .video {
   text-transform: uppercase;
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1469,7 +1469,7 @@ input[type="radio"].visually-hidden {
   width: 280px;
   margin: 0 auto;
   padding-bottom: 38px;
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1689,7 +1689,7 @@ input[type="radio"].visually-hidden {
       content: "* — обязательные поля";
       width: 163px;
       left: 485px;
-      font-family: "PT Sans", Tahoma, sans-serif;
+      font-family: "PT Sans", tahoma, sans-serif;
       font-size: 14px;
       line-height: 26px;
       font-weight: normal;
@@ -1721,7 +1721,7 @@ input[type="radio"].visually-hidden {
           align-items: baseline;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  font-family: "PT Sans", Tahoma, sans-serif;
+  font-family: "PT Sans", tahoma, sans-serif;
   margin-top: 20px; }
 
 @media (min-width: 768px) {
