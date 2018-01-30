@@ -1847,8 +1847,8 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1200px) {
   .feedback-form__wrapper--visited {
     width: 960px;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
