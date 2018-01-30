@@ -1023,6 +1023,9 @@ input[type="radio"].visually-hidden {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
+  .map iframe {
+    border: none;
+    display: block; }
 
 .page-footer {
   text-transform: uppercase;
