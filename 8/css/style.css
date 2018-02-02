@@ -1127,11 +1127,11 @@ input[type="radio"].visually-hidden {
   color: #000000;
   font-family: "PT Sans", tahoma, sans-serif;
   text-align: center;
-  padding-top: 1px; }
+  padding-top: 1px;
+  min-height: 244px; }
 
 @media (min-width: 768px) {
   .page-footer {
-    min-height: 120px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1141,7 +1141,8 @@ input[type="radio"].visually-hidden {
             flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center;
+    height: 120px; } }
 
 .page-footer__hash-wrapper {
   margin: 0 0 37px 0;
@@ -1998,7 +1999,7 @@ input[type="radio"].visually-hidden {
     .feedback-form__button::after {
       position: absolute;
       content: "* — обязательные поля";
-      width: 163px;
+      width: 170px;
       left: 485px;
       font-family: "PT Sans", tahoma, sans-serif;
       font-size: 14px;
