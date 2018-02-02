@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Седона</title>
+  <link rel="stylesheet" href="css/style.css">
+  <base href="https://htmlacademy-adaptive.github.io/505149-sedona/8/">
+</head>
+
+<body>
+  <div class="container">
+    <header class="page-header">
+      <nav class="main-nav">
+        <button class="main-nav__toggle main-nav__toggle--closed main-nav__toggle--nojs" type="button"><span class="visually-hidden">Кнопка открытия и закрытия меню в мобильой версии сайта</span></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item"><a class="site-list__link" href="index.html">ГЛАВНАЯ</a></li>
+          <li class="site-list__item site-list__item--active"><a class="site-list__link">ФОТО И ВИДЕО</a></li>
+          <li class="site-list__item"><a class="site-list__link" href="form.html">ФОРМА ОТЗЫВА</a></li>
+          <li class="site-list__item"><a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML ACADEMY</a></li>
+        </ul>
+      </nav>
+      <p class="page-header__paragraph"></p>
+      <a class="page-header__logo page-header__logo--mobile" href="index.html">
+        <picture>
+          <source media="(min-width: 1200px)"
+            srcset="img/logo-sedona-desktop.svg">
+          <source media="(min-width: 768px)"
+            srcset="img/logo-sedona-tablet.svg">
+          <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" alt="City of Sedona">
+        </picture>
+      </a>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Страница с фото и видео о Седоне</h1>
+      <section class="banner">
+        <h2 class="visually-hidden">Вступительный раздел с баннером о фото и видео в Седоне</h2>
+        <div class="banner__image banner__image--photo">
+          <img src="img/text-sedona.svg" alt="Добро пожаловать в Седону!" width="229" height="39">
+          <div class="banner__triangle"></div>
+        </div>
+        <b class="banner__slogan">ФОТО И ВИДЕО</b>
+        <p class="banner__intro banner__intro--photo">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      </section>
+      <section class="articles">
+        <h2 class="visually-hidden">Раздел с фото и видео о Седоне</h2>
+        <div class="articles__wrapper">
+          <article class="article article--first">
+            <h3 class="visually-hidden">Первая статья с фото о Седоне</h3>
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.jpg 1x, img/photo-sunset-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.jpg 1x, img/photo-sunset-tablet@2x.jpg 2x">
+              <img class="article__image article__image--first" src="img/photo-sunset-mobile@1x.jpg" srcset="img/photo-sunset-mobile@1x.jpg 1x, img/photo-sunset-mobile@2x.jpg 2x" alt="Фото Неродные просторы">
+            </picture>
+            <div class="article__outline">
+              <p class="article__author-wrapper">
+                <b class="article__title">НЕРОДНЫЕ ПРОСТОРЫ</b>
+                <span class="article__author-description">Автор фото: </span>
+                <span class="article__author">Борис</span>
+              </p>
+              <span class="article__likes article__likes--first">1350</span>
+            </div>
+          </article>
+          <article class="article">
+            <h3 class="visually-hidden">Вторая статья с фото о Седоне</h3>
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-cactus-desktop@1x.jpg 1x, img/photo-cactus-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.jpg 1x, img/photo-cactus-tablet@2x.jpg 2x">
+              <img class="article__image" src="img/photo-cactus-mobile@1x.jpg" srcset="img/photo-cactus-mobile@1x.jpg 1x, img/photo-cactus-mobile@2x.jpg 2x"  alt="Местная растительность">
+            </picture>
+            <div class="article__outline">
+              <p class="article__author-wrapper">
+                <b class="article__title">МЕСТНАЯ РАСТИТЕЛЬНОСТЬ</b>
+                <span class="article__author-description">Автор фото: </span>
+                <span class="article__author">Сергей</span>
+              </p>
+              <span class="article__likes">143</span>
+            </div>
+          </article>
+          <article class="article">
+            <h3 class="visually-hidden">Третья статья с фото о Седоне</h3>
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-roads-desktop@1x.jpg 1x, img/photo-roads-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.jpg 1x, img/photo-roads-tablet@2x.jpg 2x">
+              <img class="article__image" src="img/photo-roads-mobile@1x.jpg" srcset="img/photo-roads-mobile@1x.jpg 1x, img/photo-roads-mobile@2x.jpg 2x"  alt="Дорога на север">
+            </picture>
+            <div class="article__outline">
+              <p class="article__author-wrapper">
+                <b class="article__title">ДОРОГА НА СЕВЕР</b>
+                <span class="article__author-description">Автор фото: </span>
+                <span class="article__author">Петр</span>
+              </p>
+              <span class="article__likes">96</span>
+            </div>
+          </article>
+          <article class="article">
+            <h3 class="visually-hidden">Четвертая статья с фото о Седоне</h3>
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-bridge-desktop@1x.jpg 1x, img/photo-bridge-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
+              <img class="article__image" src="img/photo-bridge-mobile@1x.jpg" srcset="img/photo-bridge-mobile@1x.jpg 1x, img/photo-bridge-mobile@2x.jpg 2x"  alt="Мост дьявола">
+            </picture>
+            <div class="article__outline">
+              <p class="article__author-wrapper">
+                <b class="article__title">МОСТ ДЬЯВОЛА</b>
+                <span class="article__author-description">Автор фото: </span>
+                <span class="article__author">Антон</span>
+              </p>
+              <span class="article__likes">254</span>
+            </div>
+          </article>
+        </div>
+        <div class="articles__video video">
+          <div class="video__outline">
+            <b class="video__title">Все еще сомневаетесь?</b>
+            <p class="video__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+          </div>
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+            <img class="video__player" src="img/video-mobile@1x.jpg" srcset="img/video-mobile@1x.jpg 1x, img/video-mobile@2x.jpg 2x"  alt="Картинка под видео">
+          </picture>
+          <div class="video__control">
+            <div class="video__line">
+              <div class="video__hr-line"></div>
+              <div class="video__runner"></div>
+            </div>
+            <div class="video__replay">
+              <button type="button" name="button-replay" class="video__button video__button--replay"><span class="visually-hidden">Кнопка для просмотра заново</span></button>
+            </div>
+            <div class="video__cc">
+              <button type="button" name="button-cc" class="video__button video__button--cc"><span class="visually-hidden">Кнопка для включения титров</span></button>
+            </div>
+            <div class="video__fullscreen">
+              <button type="button" name="button-fullscreen" class="video__button video__button--fullscreen"><span class="visually-hidden">Кнопка для включения и выключения полного экрана</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p class="page-footer__hash-wrapper">
+        <span class="page-footer__hash">#VISITSEDONA</span>
+      </p>
+      <ul class="page-footer__social social">
+        <li class="social__item">
+          <a class="social__link social__link--tw" href="#">
+          <span class="visually-hidden">Твиттер</span>
+        </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--fb" href="#">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--yt" href="#">
+          <span class="visually-hidden">Ютуб</span>
+        </a>
+        </li>
+      </ul>
+      <p class="page-footer__copyright copyright">
+        <span class="copyright__info">РАЗРАБОТАНО</span>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">Ссылка на интенсив в Академии</span></a>
+      </p>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
