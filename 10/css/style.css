@@ -984,7 +984,12 @@ input[type="radio"].visually-hidden {
     height: 256px; } }
 
 .feature-with-photo__img {
-  display: block; }
+  display: block;
+  -webkit-transform: translateY(-70px);
+          transform: translateY(-70px); }
+  .feature-with-photo__img--2 {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px); }
 
 .feature-with-photo--first {
   min-height: 211px;
