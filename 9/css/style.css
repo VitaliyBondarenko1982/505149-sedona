@@ -23,6 +23,10 @@ img {
   height: auto;
   border-style: none; }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".svg"] {
+    width: 100%; } }
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15; }
