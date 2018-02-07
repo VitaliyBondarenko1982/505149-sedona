@@ -1563,10 +1563,11 @@ input[type="radio"].visually-hidden {
     margin: -97px auto 0 auto;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: black;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center;
+    opacity: 0.6; } }
 
 @media (min-width: 1200px) {
   .video__control {
